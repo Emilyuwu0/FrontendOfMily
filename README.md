@@ -34,3 +34,53 @@ Cuando utilizamos el término “responsive” (adaptable), nos referimos princi
 }
 
 ```
+
+🔰 https://blogthinkbig.com/generadores-css-escribir-codigo 
+
+
+
+## 🔹 Marking Layouts:
+```css
+
+ justify-content:
+
+- flex-start: Alinea elementos al lado izquierdo del contenedor.
+- flex-end: Alinea elementos al lado derecho del contenedor.
+- center: Alinea elementos en el centro del contenedor.
+- space-between: Muestra elementos con la misma distancia entre ellos.
+- space-around: Muestra elementos con la misma separación alrededor de ellos.
+
+ align-items:
+
+- flex-start: Alinea elementos a la parte superior del contenedor.
+- flex-end: Alinea elementos a la parte inferior del contenedor.
+- center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+- baseline: Muestra elementos en la línea base del contenedor
+- stretch: Elementos se estiran para ajustarse al contenedor.
+
+flex-direction:
+
+- row: Elementos son colocados en la misma dirección del texto.
+- row-reverse: Elementos son colocados en la dirección opuesta al texto.
+- column: Elementos se colocan de arriba hacia abajo.
+- column-reverse: Elementos se colocan de abajo hacia arriba.
+
+Order:
+- La propiedad CSS order especifica el orden utilizado para disponer los elementos en su contenedor flexible. Los elementos estarán dispuestos en orden ascendente según el valor de order.
+
+flex-wrap, la cual acepta los siguientes valores:
+
+- nowrap: Cada elemento se ajusta en una sola línea.
+- wrap: los elementos se envuelven alrededor de líneas adicionales.
+- wrap-reverse: Los elementos se envuelven alrededor de líneas adicionales en reversa.
+
+align-content:
+
+- flex-start: Las líneas se posicionan en la parte superior del contenedor.
+- flex-end: Las líneas se posicionan en la parte inferior del contenedor.
+- center: Las líneas se posicionan en el centro (verticalmente hablando) del contenedor.
+- space-between: Las líneas se muestran con la misma distancia entre ellas.
+- space-around: Las líneas se muestran con la misma separación alrededor de ellas.
+- stretch: Las líneas se estiran para ajustarse al contenedor.
+
+```
