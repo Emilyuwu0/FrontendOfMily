@@ -1,8 +1,23 @@
-# Frontend Of Mily ──★
+# Consumir Api 
 
- Roadmap Estudio De Emily 💙
+```  
+- Se decalara una constante para almacenar la data
+const [data, setData] = useState([]);
 
--> En los branches podras ver los diferentes temas con sus respectivos subtemas <3 
+useEffect(() => {
+    fetch("https://dragonball-api.com/api/characters")
+      .then((response) => response.json()) / Respuesta de la peticione
+      .then((data) => setData(data.items)); Cuando este dentro de un array es decir la informacion que tenemos esta dentro de ITEMS y este esta dentro de DATA
 
+  }, []);
 
-![image](https://github.com/user-attachments/assets/cf37f646-7d42-4fd7-b864-63cc0ac88f08)
+- Lo mapeamos 
+  <div>
+      <h1>Lista de personajes</h1>
+      <ul>
+        {data.map((item) => (
+          <li key={item.id}>{item.name}</li>
+        ))}
+      </ul>
+    </div>
+```
