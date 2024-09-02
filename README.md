@@ -8,6 +8,8 @@ El núcleo del lenguaje JavaScript de lado del cliente consta de algunas caracte
 
 Almacenar valores útiles dentro de variables. En el ejemplo anterior, por ejemplo, pedimos que ingreses un nuevo nombre y luego almacenamos ese nombre en una variable llamada name.
 Operaciones sobre fragmentos de texto (conocidas como "cadenas" (strings) en programación).
-https://www.w3schools.com/js/
-https://javascript.info
+
+- https://www.w3schools.com/js/
+- https://javascript.info
+- https://www.javascripttutorial.net/javascript-dom/
 
