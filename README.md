@@ -90,7 +90,9 @@ async getLayoffList(dataParams: {
           reject(error);
         });
     });
-  }```
+  }
+```
 
   - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+  - https://www.javascripttutorial.net/web-apis/javascript-fetch-api/
 
