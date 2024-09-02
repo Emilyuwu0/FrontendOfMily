@@ -1,5 +1,7 @@
 ## **🧡 HTML:**
 HTML significa lenguaje de marcado de hipertexto
+HTML es el lenguaje de marcado que usamos para estructurar y dar significado a nuestro contenido web, por ejemplo, definiendo párrafos, encabezados y tablas de datos, o insertando imágenes y videos en la página.
+
 https://www.w3schools.com/html/html_intro.asp
 
 ## **⭐ SEO:**
